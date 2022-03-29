@@ -17,6 +17,28 @@ This final dataframe was a table that showed each reveiw id, with the associated
 
 After some filtering to ensure we were working with good data, the dataframe was split into reviews by paid Vine reviews and non paid Vine reviews...
 
+Paid Vine Reviews
+![alt text](https://raw.githubusercontent.com/KitWilliams07/Amazon_Vine_Analysis/main/Challenge/y.png)
+
+Non-Paid Vine Reviews
+![alt text](https://raw.githubusercontent.com/KitWilliams07/Amazon_Vine_Analysis/main/Challenge/n.png)
+
+Breaking down the Statistics:
+
+Number of Paid Vine Reviews: 94
+Number of 5-Star Paid Vine Reviews: 48
+Percentage of 5-Star: 51.06%
+
+
+Number of Non-Paid Vine Reviews: 40,471
+Number of 5-Star Non-Paid Vine Reviews: 15,663
+Percentage of 5-Star: 38.7%
 
 
 ## Summary 
+
+Ultimately we are trying to answer the question whether there is bias in the reviews based on whether the review was a Vine Paid Review or not. 
+
+Based on the results, there does seem to be bias. The Vine Paid reviews had nearly 14% more 5-Star Reviews was suggests they are more likely to provide a higher grade for a product compared to the non-paying. 
+
+To further identify the bias, the average star rating should be determined to see if the reviews are higher for those that payed. After calculations, the average star rating of Paid Vine Reviews is 4.2 out of 5 while for Non-Paid Vine Reviews is 3.3 out of 5. This further shows that there is bias in the ratings.
